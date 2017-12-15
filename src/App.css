@@ -1,0 +1,129 @@
+body{
+  overflow-x: hidden;
+  font-family:'Source Sans Pro';
+}
+.App {
+  //text-align: center;
+}
+.App-header {
+  //background-color: #222;
+  //height: 150px;
+  padding: 20px;
+  //color: white;
+  display: flex;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+    padding: 40px;
+    //background: #ffffff36;
+    display: inline-block;
+    //box-shadow: 7px 11px 10px #04040417;
+    margin: 20px;    
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mth-bgs{
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.mth-bg1{
+  background-image: url('https://i.imgur.com/YtLBKe5.png'); 
+
+
+    height: 500px;
+    width: 80%;
+    margin-top: 90px;
+    transform: rotateX(140deg)rotateZ(330deg);
+    position: absolute;
+    top: -130px;
+    right: -230px;
+    filter: hue-rotate(-280deg);
+
+}
+.mth-bg2{
+  background-image: url('https://i.imgur.com/TTI0XWI.png'); 
+}
+
+.App-header button{
+    background-image: linear-gradient(180deg,#9484ff,#b663ff);
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 11px 23px;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 15px;
+    padding: 5px 15px;  
+    font-family: 'Source Sans Pro';
+    border: 0 ;
+    margin: 10px;
+    cursor: pointer;
+}
+.App-Title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #9c7dff;
+}
+.Tagline{
+    font-weight: bold;
+    font-size: 45px;  
+}
+.App-Icon{
+  background-image: url('https://i.imgur.com/jxzB8oF.png');
+  background-size: contain;
+  background-repeat: no-repeat;  
+  height: 140px;
+  width: 140px;
+}
+.flexbox{
+  display: flex;
+}
+.flexbox-c{
+  margin: 10px;
+  width: 40%;
+}
+.flexbox-c{
+  color: #a7a7a7;
+}
+.thead{
+    color: #de3bea;
+    font-size: 19px;  
+}
+
+.App-Icons{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  display: inline-block;
+  background-size: contain;
+}
+.App-GG{
+  background-image: url('https://i.imgur.com/Bcu9aWy.png');
+}
+.App-RD{
+  background-image: url('https://i.imgur.com/Hfl9Rv1.png');
+}
+.App-GH{
+  background-image: url('https://i.imgur.com/SLFTLvr.png');
+}
+.App-SL{
+  background-image: url('https://i.imgur.com/ZWcFFLy.png);
+}
+.cx{
+  width: auto;
+}
